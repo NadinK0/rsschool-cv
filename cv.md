@@ -2,10 +2,10 @@
 
 
 ## Contacts
-* Phone: +79045531416
-* Telegram: @N_a_d_i_n_a
-* GitHub: NadinK0
-* e-mail: npantelyeva@gmail.com
+* **Phone:** +79045531416
+* **Telegram:** @N_a_d_i_n_a
+* **GitHub:** NadinK0
+* **e-mail:** npantelyeva@gmail.com
 
 
 ## About me
@@ -19,9 +19,9 @@ While on maternity leave, I decided to try something new. My choice was web-prog
 * SQL
 
 ## Education
-* Saint Petersburg Electrotechnical University «LETI»
+* **Saint Petersburg Electrotechnical University «LETI»**
     + Faculty of Computer Technologies and Informatics
-* Tomsk State University
+* **Tomsk State University**
     + Course "Web programmer: from scratch to the first projects"
 
 
