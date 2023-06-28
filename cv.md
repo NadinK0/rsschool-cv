@@ -9,6 +9,7 @@
 
 
 ## About me
+While on maternity leave, I decided to try something new. My choice was web-programming. I started studying recently, but I really like to get new knowledge. I try to achieve my goals, so I believe that I can master this profession.
 
 ## Skills
 * HTML
@@ -25,7 +26,7 @@
 
 
 ## Code example
-**Instruction** *Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').*
+**Instruction from codewars** *Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').*
 ```
 function solution(str){
     let current_arr = str.split('');
@@ -49,3 +50,7 @@ function solution(str){
     }
 }
 ```
+## Languages
+* Russian (Native)
+* English (Intermediate)
+
