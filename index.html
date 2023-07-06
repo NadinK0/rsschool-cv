@@ -3,9 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV#3. CV. Cross-Check</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Cormorant+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
 </head>
 <body>
+<header>
+    <div class="wrapper">
+        <nav class="navigation__container">
+            <a href="#about">About</a>
+            <a href="#edu">Education</a>
+            <a href="#code">Code example</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </div>
+</header>
+<main>
+ <div class="wrapper">
+    <div class="cv__container">
 
+        <div class="left__part">
+            <img class="photo" src="img/ava.jpg" alt="photo">
+            <h1>Nadezhda<br>
+                Klinskaya
+            </h1>
+            <section class="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li><a href="tel:+9045531416">Phone: +79045531416</a></li>
+                    <li>Telegram: @N_a_d_i_n_a</li>
+                    <li><a href="https://github.com/NadinK0">GitHub: NadinK0</a></li>
+                    <li><a href="mailto:npantelyeva@gmail.com">e-mail: npantelyeva@gmail.com</a></li>
+                </ul>
+            </section>
+            <section class="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian (Native)</li>
+                    <li>English (Intermediate)</li>
+                </ul>
+            </section>
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Adobe Photoshop</li>
+                    <li>SQL</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="right__part">
+            <section class="about">
+                <h2 id="about">About me</h2>
+                <p>
+                    While on maternity leave, I decided to try something new. My choice was web-programming. I started studying recently, but I really like to get new knowledge. I try to achieve my goals, so I believe that I can master this profession.
+                </p>
+            </section>
+            <section class="education" id="edu">
+                <h2>Education</h2>
+                <ul>
+                    <li>Saint Petersburg Electrotechnical University «LETI»
+                        <ul>
+                            <li>Faculty of Computer Technologies and Informatics</li>
+                        </ul>
+                    </li>
+                    <li>Tomsk State University
+                        <ul>
+                            <li>Course "Web programmer: from scratch to the first projects"</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="code__example" id="code">
+                <h2>Code example</h2>
+                <p>
+                    <b>Instruction from codewars:</b>
+                    <i>Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').</i>
+                </p>
+                <pre><code>
+function solution(str){
+let current_arr = str.split('');
+let pair_arr= [];
+if (current_arr.length % 2 === 0)
+{
+    for (let i = 0; i < current_arr.length; i += 2) 
+    {    
+        pair_arr.push(current_arr[i]+current_arr[i+1])
+    } 
+    return(pair_arr);
+}    
+else 
+{
+    for (let i = 0; i < current_arr.length - 1; i += 2)
+    {
+        pair_arr.push(current_arr[i]+current_arr[i+1])
+    }
+    pair_arr.push(current_arr[current_arr.length-1]+"_")
+    return(pair_arr);
+}
+}                      
+                </code></pre>
+            </section>
+            <section class="projects" id="projects">
+                <h2>My projects</h2>
+                <div class="projects__container">
+                    <a href="http://u90455dq.beget.tech/pages/final_work/final_work.html">Pizzeria website</a>
+                    <a href="http://u90455dq.beget.tech/pages/task2/task2.html">Photography website</a>
+                    <a href="http://u90455dq.beget.tech/pages/task4/task4.html">Foreign languages website</a>
+                </div>
+            </section>
+        </div>
+
+    </div>
+ </div>
+</main>
+<footer>
+    <div class="wrapper">
+        <div class="footer__container">
+            <a href="https://github.com/NadinK0"><img class="footer_logo" src="/img/gh.png" alt="my_GitHub"></a>
+            <a href="https://rs.school/js/"><img class="footer_logo" src="/img/rs_school_js.svg" alt="rs.school_logo"></a>
+            <p>&copy; 2023</p> 
+        </div>
+    </div>
+</footer>
 </body>
 </html>
