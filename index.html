@@ -87,13 +87,14 @@
                     <b>Instruction from codewars:</b>
                     <i>Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').</i>
                 </p>
-                <pre><code>
+                <pre>
+                    <code>
 function solution(str){
 let current_arr = str.split('');
 let pair_arr= [];
 if (current_arr.length % 2 === 0)
 {
-    for (let i = 0; i < current_arr.length; i += 2) 
+    for (let i = 0; i &lt; current_arr.length; i += 2) 
     {    
         pair_arr.push(current_arr[i]+current_arr[i+1])
     } 
@@ -101,7 +102,7 @@ if (current_arr.length % 2 === 0)
 }    
 else 
 {
-    for (let i = 0; i < current_arr.length - 1; i += 2)
+    for (let i = 0; i &lt; c urrent_arr.length - 1; i += 2)
     {
         pair_arr.push(current_arr[i]+current_arr[i+1])
     }
@@ -109,7 +110,8 @@ else
     return(pair_arr);
 }
 }                      
-                </code></pre>
+                </code>
+            </pre>
             </section>
             <section class="projects" id="projects">
                 <h2>My projects</h2>
